@@ -39,6 +39,10 @@ public class Post {
         return likes;
     }
 
+    public List<Comment> getComments() {
+        return comments;
+    }
+
     public void setMoment(LocalDate moment) {
         this.moment = moment;
     }
