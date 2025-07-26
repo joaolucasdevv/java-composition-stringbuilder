@@ -11,4 +11,8 @@ public class Comment {
         this.text = text;
     }
 
+    public String getText() {
+        return getText();
+    }
+
 }
