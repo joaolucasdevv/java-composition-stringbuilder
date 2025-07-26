@@ -39,5 +39,20 @@ public class Post {
         return likes;
     }
 
+    public void setMoment(LocalDate moment) {
+        this.moment = moment;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public void setLikes(Integer likes) {
+        this.likes = likes;
+    }
 
 }
