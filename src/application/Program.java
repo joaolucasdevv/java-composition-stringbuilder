@@ -21,6 +21,10 @@ public class Program {
                 "I'going to visit this wonderful contry!",
                 12
         );
+
+        p1.addComment(c1);
+        p1.addComment(c2);
+
     }
 
 }
