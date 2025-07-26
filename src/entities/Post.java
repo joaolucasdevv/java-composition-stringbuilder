@@ -1,11 +1,13 @@
 package entities;
 
-import java.time.LocalDate;
+import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Post {
+
+    private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
     private LocalDateTime moment;
     private String title;
@@ -70,6 +72,10 @@ public class Post {
 
     public String toString() {
         StringBuilder sb = new StringBuilder();
+        sb.append(title).append("\n");
+        sb.append(likes);
+        sb.append(" Likes - ");
+        sb.append(sdf.format(moment)).append("\n");
 
     }
 }
