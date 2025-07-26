@@ -68,4 +68,8 @@ public class Post {
         comments.remove(comment);
     }
 
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+
+    }
 }
