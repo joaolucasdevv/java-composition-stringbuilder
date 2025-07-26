@@ -19,8 +19,8 @@ public class Program {
                 LocalDateTime.parse("21/06/2018 13:05:44", fmt),
                 "Traveling to New Zealand",
                 "I'going to visit this wonderful contry!",
-                12);
-
+                12
+        );
     }
 
 }
