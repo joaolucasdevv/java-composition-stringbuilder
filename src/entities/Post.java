@@ -23,5 +23,21 @@ public class Post {
         this.likes = likes;
     }
 
+    public LocalDate getMoment() {
+        return moment;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public Integer getLikes() {
+        return likes;
+    }
+
 
 }
