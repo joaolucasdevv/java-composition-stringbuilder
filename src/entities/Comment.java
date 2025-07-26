@@ -12,7 +12,7 @@ public class Comment {
     }
 
     public String getText() {
-        return getText();
+        return text;
     }
 
 }
