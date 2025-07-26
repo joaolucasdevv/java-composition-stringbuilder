@@ -55,4 +55,8 @@ public class Post {
         this.likes = likes;
     }
 
+    public void addComment(Comment comment) {
+        comments.add(comment);
+    }
+
 }
