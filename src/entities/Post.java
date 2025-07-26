@@ -13,6 +13,9 @@ public class Post {
 
     private final List<Comment> comments = new ArrayList<>();
 
+    public Post() {
+    }
+
     public Post(LocalDate moment, String title, String content, Integer likes) {
         this.moment = moment;
         this.title = title;
@@ -20,6 +23,5 @@ public class Post {
         this.likes = likes;
     }
 
-    public Post()
 
 }
