@@ -79,7 +79,7 @@ public class Post {
         sb.append(content).append("\n");
         sb.append("Comments:").append("\n");
         for (Comment c : comments) {
-            sb.append(c).append("\n");
+            sb.append(c.getText()).append("\n");
         }
     }
 }
